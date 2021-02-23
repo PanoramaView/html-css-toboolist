@@ -29,6 +29,9 @@ section{
     margin-left: 15%;
     margin-right: 15%;
     border-radius: 5px;
+    padding-left: 5%;
+    
+    
 }
 
 /* section{
@@ -38,10 +41,68 @@ section{
     left: 50%;
 } */
 #section_bt{
-    margin-top: 0;
+    margin-top: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#section_task{
+    padding-left: ;
+}
+input{
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-color: rgb(105, 105, 105);
+}
+#btTask{
+    background-color: rgb(86, 153, 255);
+    color: white;
+}
+#btSection{
+    color: rgb(170, 170, 170);
+}
+#section_task{
+    padding-top: 20px;
+    margin-top: 2px;
+    padding-bottom: 30px;
 }
 
-
+ul {
+    list-style: none;
+  }
+#mainpoints{
+    font-weight: bold;
+    font-size: 20px;
+}
+#tasklist{
+    font-size: 15px;
+}
+.maintask{
+    padding-top: 20px;
+}
+.task{
+    padding-top: 10px;
+}
+#mainpoints > li::before {
+    content: "\21E9";
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+  }
+#tasklist > li::before {
+    content: "\2714";
+    color: rgb(7, 223, 0);
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -3em;
+  }
 
 
 
