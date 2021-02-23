@@ -1,6 +1,51 @@
-*{
-    font-size: 'Open Sans', sans-serif;
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    background-image: url(img/code.png);
 }
+header{
+    background-color: white;
+}
+#top *{
+    display: inline-block;
+    height: 60px;
+    vertical-align: middle;
+    line-height:60px;
+}
+#logo{
+    width: 80px;
+    text-align: right;
+}
+#titolo{
+    font-weight: bolder;
+    font-size: 50px;
+    text-align: left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+section{
+    background-color: rgba(255, 255, 255, 0.575);
+    margin-left: 15%;
+    margin-right: 15%;
+    border-radius: 5px;
+}
+
+/* section{
+    background-color: tomato;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+} */
+#section_bt{
+    margin-top: 0;
+}
+
+
+
+
+
+
 .circle{
     color: white;
     display: inline-block;
@@ -9,9 +54,15 @@
     border-radius: 50%;
     text-align: center;
     vertical-align: middle;
-    line-height: ;
+    line-height:;
 }
 
-/* #logo{
-    ok
-} */
+footer > div{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.712);
+    width: 200px;
+    text-align: center;
+    position: relative;
+    right: 0;
+    
+}
